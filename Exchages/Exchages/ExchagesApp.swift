@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct ExchagesApp: App {
+    
+    @StateObject private var viewModel = HomeViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+                    .toolbar(.hidden, for: .navigationBar)
+            }
+            .environmentObject(viewModel)
         }
     }
 }
