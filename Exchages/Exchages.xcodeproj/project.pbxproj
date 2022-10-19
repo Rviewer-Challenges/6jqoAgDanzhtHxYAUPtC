@@ -20,6 +20,9 @@
 		423D50E728FCAF8F00A57E41 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50E628FCAF8F00A57E41 /* PreviewProvider.swift */; };
 		423D50E928FD989300A57E41 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50E828FD989300A57E41 /* Double.swift */; };
 		423D50EB28FDE9FA00A57E41 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50EA28FDE9FA00A57E41 /* HomeViewModel.swift */; };
+		423D50EE28FE032C00A57E41 /* CoinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50ED28FE032C00A57E41 /* CoinService.swift */; };
+		423D50F128FE0D7A00A57E41 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50F028FE0D7A00A57E41 /* Constans.swift */; };
+		423D50F32900083400A57E41 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50F22900083400A57E41 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		423D50E628FCAF8F00A57E41 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		423D50E828FD989300A57E41 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		423D50EA28FDE9FA00A57E41 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		423D50ED28FE032C00A57E41 /* CoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinService.swift; sourceTree = "<group>"; };
+		423D50F028FE0D7A00A57E41 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		423D50F22900083400A57E41 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +75,9 @@
 		423D50BF28F7637900A57E41 /* Exchages */ = {
 			isa = PBXGroup;
 			children = (
+				423D50EF28FE0D6E00A57E41 /* Utils */,
 				423D50CE28F7639D00A57E41 /* Extensions */,
+				423D50EC28FE030500A57E41 /* Services */,
 				423D50E128FCA60600A57E41 /* Models */,
 				423D50D328F8ADB600A57E41 /* Core */,
 				423D50C028F7637900A57E41 /* ExchagesApp.swift */,
@@ -158,6 +166,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		423D50EC28FE030500A57E41 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				423D50ED28FE032C00A57E41 /* CoinService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		423D50EF28FE0D6E00A57E41 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				423D50F028FE0D7A00A57E41 /* Constans.swift */,
+				423D50F22900083400A57E41 /* NetworkingManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,11 +259,14 @@
 				423D50C328F7637900A57E41 /* ContentView.swift in Sources */,
 				423D50D828F8AE3600A57E41 /* HomeView.swift in Sources */,
 				423D50C128F7637900A57E41 /* ExchagesApp.swift in Sources */,
+				423D50F128FE0D7A00A57E41 /* Constans.swift in Sources */,
 				423D50E028F8B74C00A57E41 /* CircleButton.swift in Sources */,
 				423D50DE28F8B60D00A57E41 /* CircleButtonAnimation.swift in Sources */,
 				423D50E728FCAF8F00A57E41 /* PreviewProvider.swift in Sources */,
 				423D50E928FD989300A57E41 /* Double.swift in Sources */,
+				423D50EE28FE032C00A57E41 /* CoinService.swift in Sources */,
 				423D50D028F763A800A57E41 /* Color.swift in Sources */,
+				423D50F32900083400A57E41 /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
