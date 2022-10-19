@@ -1,5 +1,5 @@
 //
-//  CoinService.swift
+//  CoinDataService.swift
 //  Exchages
 //
 //  Created by Dario Gallegos on 17/10/22.
@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-class CoinService {
+class CoinDataService {
     
     @Published var allCoins:[CoinModel] = []
     var coinSubscription: AnyCancellable?
@@ -18,7 +18,6 @@ class CoinService {
     }
     
     private func getCoins() {
-        
         
         guard let url = URL(string: Constants.urlApiGeeko + "/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h") else {
             return
