@@ -18,6 +18,7 @@ struct HomeView: View {
                 .ignoresSafeArea()
             VStack {
                 homeHeader
+                SearchBar(searchText: $viewModel.searchText)
                 columnTitles
                 
                 if !showPorfolio {
@@ -33,6 +34,7 @@ struct HomeView: View {
                 Spacer()
             }
         }
+        .ignoresSafeArea(.all, edges: .bottom)
     }
 }
 
