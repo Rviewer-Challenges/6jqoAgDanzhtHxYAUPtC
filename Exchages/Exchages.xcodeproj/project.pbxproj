@@ -26,6 +26,7 @@
 		423D50F52900247100A57E41 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50F42900247100A57E41 /* CoinImageViewModel.swift */; };
 		423D50F8290024F200A57E41 /* CoinImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50F7290024F200A57E41 /* CoinImage.swift */; };
 		423D50FA2900317C00A57E41 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50F92900317C00A57E41 /* CoinImageService.swift */; };
+		423D50FC2900478500A57E41 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50FB2900478500A57E41 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		423D50F42900247100A57E41 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		423D50F7290024F200A57E41 /* CoinImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImage.swift; sourceTree = "<group>"; };
 		423D50F92900317C00A57E41 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
+		423D50FB2900478500A57E41 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			children = (
 				423D50F028FE0D7A00A57E41 /* Constans.swift */,
 				423D50F22900083400A57E41 /* NetworkingManager.swift */,
+				423D50FB2900478500A57E41 /* LocalFileManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				423D50C128F7637900A57E41 /* ExchagesApp.swift in Sources */,
 				423D50F128FE0D7A00A57E41 /* Constans.swift in Sources */,
 				423D50E028F8B74C00A57E41 /* CircleButton.swift in Sources */,
+				423D50FC2900478500A57E41 /* LocalFileManager.swift in Sources */,
 				423D50DE28F8B60D00A57E41 /* CircleButtonAnimation.swift in Sources */,
 				423D50E728FCAF8F00A57E41 /* PreviewProvider.swift in Sources */,
 				423D50E928FD989300A57E41 /* Double.swift in Sources */,
