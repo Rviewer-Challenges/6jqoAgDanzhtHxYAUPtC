@@ -29,6 +29,9 @@
 		423D50FC2900478500A57E41 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50FB2900478500A57E41 /* LocalFileManager.swift */; };
 		423D50FF2900AE9700A57E41 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D50FE2900AE9700A57E41 /* SearchBar.swift */; };
 		423D51012900B8B100A57E41 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D51002900B8B100A57E41 /* UIApplication.swift */; };
+		42D1EBF6290440D300CE1099 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1EBF5290440D300CE1099 /* StatisticModel.swift */; };
+		42D1EBF9290444C900CE1099 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1EBF8290444C900CE1099 /* StatisticView.swift */; };
+		42D1EBFB290456C200CE1099 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1EBFA290456C200CE1099 /* HomeStatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		423D50FB2900478500A57E41 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		423D50FE2900AE9700A57E41 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		423D51002900B8B100A57E41 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		42D1EBF5290440D300CE1099 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
+		42D1EBF8290444C900CE1099 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		42D1EBFA290456C200CE1099 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,7 @@
 			children = (
 				423D50D728F8AE3600A57E41 /* HomeView.swift */,
 				423D50E428FCAEE600A57E41 /* CoinRowView.swift */,
+				42D1EBFA290456C200CE1099 /* HomeStatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,6 +165,7 @@
 		423D50D928F8B04500A57E41 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				42D1EBF7290444AF00CE1099 /* List */,
 				423D50FD2900AE2600A57E41 /* SearchBar */,
 				423D50F6290024D800A57E41 /* CoinImage */,
 				423D50DC28F8B5FC00A57E41 /* CircleButton */,
@@ -178,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				423D50E228FCA61A00A57E41 /* CoinModel.swift */,
+				42D1EBF5290440D300CE1099 /* StatisticModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -215,6 +224,14 @@
 				423D50FE2900AE9700A57E41 /* SearchBar.swift */,
 			);
 			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		42D1EBF7290444AF00CE1099 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				42D1EBF8290444C900CE1099 /* StatisticView.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				423D50F52900247100A57E41 /* CoinImageViewModel.swift in Sources */,
+				42D1EBF6290440D300CE1099 /* StatisticModel.swift in Sources */,
 				423D50E528FCAEE600A57E41 /* CoinRowView.swift in Sources */,
 				423D50EB28FDE9FA00A57E41 /* HomeViewModel.swift in Sources */,
 				423D50E328FCA61A00A57E41 /* CoinModel.swift in Sources */,
@@ -295,9 +313,11 @@
 				423D50D828F8AE3600A57E41 /* HomeView.swift in Sources */,
 				423D50F8290024F200A57E41 /* CoinImage.swift in Sources */,
 				423D50FA2900317C00A57E41 /* CoinImageService.swift in Sources */,
+				42D1EBF9290444C900CE1099 /* StatisticView.swift in Sources */,
 				423D51012900B8B100A57E41 /* UIApplication.swift in Sources */,
 				423D50C128F7637900A57E41 /* ExchagesApp.swift in Sources */,
 				423D50F128FE0D7A00A57E41 /* Constans.swift in Sources */,
+				42D1EBFB290456C200CE1099 /* HomeStatsView.swift in Sources */,
 				423D50E028F8B74C00A57E41 /* CircleButton.swift in Sources */,
 				423D50FC2900478500A57E41 /* LocalFileManager.swift in Sources */,
 				423D50DE28F8B60D00A57E41 /* CircleButtonAnimation.swift in Sources */,
